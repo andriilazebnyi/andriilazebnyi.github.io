@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contenteditable</title>
+    <title>Iframe</title>
 </head>
 <body>
-    <div name="txtNikita" contenteditable="true" id="txtNikita" style="width:700px;height:300px;border:1px solid gray;"></div>
+    <iframe id="txtNikita" name="txtNikita" style="height:300px;width:700px; border:1px solid gray" srcdoc="<body contenteditable></body>" frameborder="0">
+	</iframe>
 </body>
 </html>
